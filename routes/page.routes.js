@@ -14,7 +14,7 @@ module.exports = app => {
     // Delete a page with id
     router.delete("/deletepage/:id",[authJwt.verifyToken,authJwt.isAdmin], page.deletePage);
     
-    router.get('/:id',[authJwt.verifyToken] ,page.findPageById);
+    router.get('/slug/:id',[authJwt.verifyToken] ,page.findPageById);
     app.use('/api/page', router);
     
   };

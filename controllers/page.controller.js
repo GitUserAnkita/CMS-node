@@ -189,7 +189,7 @@ exports.findPageById = async(req,res)=>{
         res.status(201).send({message:'page id required !'})
         return
       }
-      const page = await Page.findOne({where:{id:id}});
+      const page = await Page.findOne({where:{slug:id}});
       res.status(200).send(page)
   }catch(error){
     res.status(400).send({message:'Oops! something went wrong in get page'})

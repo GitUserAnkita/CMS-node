@@ -32,12 +32,12 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN,
             defaultValue:false
           }, 
-    // createdAt: {
-    //          type: DataTypes.DATE
-    //      },
-    // updatedAt: {
-    //          type: DataTypes.DATE
-    //      },
+    createdAt: {
+             type: DataTypes.DATE
+         },
+    updatedAt: {
+             type: DataTypes.DATE
+         },
 
   }, {
     sequelize,
