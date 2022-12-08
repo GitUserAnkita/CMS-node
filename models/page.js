@@ -51,6 +51,10 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.TEXT,
         allowNull: false
       },
+      design:{
+        type:DataTypes.TEXT,
+        allowNull: false
+      },
       isDeleted: {
         type: DataTypes.BOOLEAN,
         defaultValue:false

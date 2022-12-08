@@ -15,7 +15,7 @@ const db = {};
 // } else {
 //   sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
-
+console.log("config",config)
 const sequelize = new Sequelize(config.database, config.username, config.password, {
   host:config.host,
   dialect: config.dialect,
