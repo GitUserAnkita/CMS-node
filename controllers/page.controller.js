@@ -9,7 +9,7 @@ const Op = db.Sequelize.Op;
 exports.createPage = async(req,res)=>{
     try{
         const {status ,slug ,name ,author,description,html} = req.body;
-        if(!name || !author || !description || !html || !slug || !status){
+        if(!name || !author || !description || !html  || !slug || !status){
             res.status(201).send({
                 message:'required fields are missing may be : name,author,description,html,slug,status!'
             })
