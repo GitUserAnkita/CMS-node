@@ -1,23 +1,20 @@
 {
   "development": {
-    "username": "sql10583278",
-    "password": "WxwqdlIvbF",
-    "database": "sql10583278",
-    "host": "sql10.freesqldatabase.com",
-    "dialect": "mysql"
+    "username": "root",
+      "database": "test",
+      "host": "localhost",
+      "dialect": "mysql"
   },
   "test": {
-      "username": "sql10583278",
-      "password": "WxwqdlIvbF",
-      "database": "sql10583278",
-      "host": "sql10.freesqldatabase.com",
+      "username": "root",
+      "database": "test",
+      "host": "localhost",
       "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "mangoit@1",
-    "database": "testdb",
-    "host": "localhost",
-    "dialect": "mysql"
+      "database": "test",
+      "host": "localhost",
+      "dialect": "mysql"
   }
 }

@@ -35,7 +35,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Backend Api is working fine!" });
 });
 
-
 require("./routes/role.routes")(app);
 require("./routes/user.routes")(app);
 require("./routes/page.routes")(app);
